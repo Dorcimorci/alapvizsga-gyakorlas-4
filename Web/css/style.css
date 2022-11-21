@@ -1,48 +1,57 @@
-body{
+body {
     background-color: lightgoldenrodyellow;
 }
-header{    
+header {
     background-position: center center;
-    
-} 
-h1{
+    height: 350px;
+    background-image: url(../img/bg2.jpg);
+}
+h1 {
     background-color: rgb(248, 248, 248);
     margin-top: 80px;
-    padding-left: 11rem; 
-    
-}
- 
-h2{    
-    margin-top: 10px;    
-    
-    
-    
-}
-
-h3{    
+    padding-left: 11rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #463706;
     font-weight: bold;
-    color: #753d2b;    
-    
-    
 }
 
+h2 {
+    margin-top: 10px;
+    color: #463706;
+    border-left: 3px dotted #463706;
+    padding: 5px 15px;
+}
 
-li{
+h3 {
+    font-weight: bold;
+    color: #753d2b;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 15px;
+}
+
+li {
     list-style-image: url(../img/maszk.png);
-    
+    margin: 40px;
 }
 
-
-td,th{
+td,
+th {
     text-align: center;
 }
 
-thead>tr:first-child{    
-    letter-spacing: 2px;  
-      
+thead > tr:first-child {
+    letter-spacing: 2px;
 }
 
-a{
-
+a {
     color: #463706;
+}
+
+.navbar {
+    background-color: #bbee00;
 }
